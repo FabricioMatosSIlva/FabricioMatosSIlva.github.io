@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Source (apenas dist será versionado para GitHub Pages)
+src/
+public/
+*.js
+*.json
+*.html
+!dist/**
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
